@@ -1,0 +1,4 @@
+# 定义基础镜像
+FROM docker.elastic.co/apm/apm-server:6.8.11
+# 定义维护者信息
+LABEL maintainer="zhu.yuehao@iwhalecloud.com"
